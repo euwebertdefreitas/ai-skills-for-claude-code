@@ -1,0 +1,19 @@
+[
+  { "chave": "desenvolvimento",      "nome": "Desenvolvimento de Software",        "cor": "1f6feb", "descricao": "Skills de construção de aplicações: web, desktop, mobile, frontend, backend, fullstack e desenvolvimento com Claude Code." },
+  { "chave": "ia-dados-ml",          "nome": "IA, Dados e Machine Learning",        "cor": "8957e5", "descricao": "Inteligência artificial, ciência de dados, machine learning, deep learning, NLP, big data, BI, MLOps e engenharia de dados." },
+  { "chave": "arquitetura",          "nome": "Arquitetura de Software",             "cor": "0e8a16", "descricao": "Padrões e estilos de arquitetura: Clean Architecture, DDD, EDA, FDD, APIs REST e integração entre sistemas." },
+  { "chave": "qualidade",            "nome": "Qualidade, Testes e Revisão",         "cor": "fbca04", "descricao": "Qualidade de software, testes automatizados, revisão de código e engenharia de hardware." },
+  { "chave": "devops",               "nome": "DevOps e Infraestrutura",             "cor": "d93f0b", "descricao": "DevOps, DevSecOps, CI/CD, Git, GitHub, administração de sistemas e arquitetura de redes." },
+  { "chave": "seguranca",            "nome": "Segurança",                            "cor": "b60205", "descricao": "Segurança cibernética defensiva: modelagem de ameaças, OWASP, hardening e resposta a incidentes." },
+  { "chave": "banco-de-dados",       "nome": "Bancos de Dados",                      "cor": "5319e7", "descricao": "Bancos relacionais, Oracle Database e programação T-SQL/PL-SQL." },
+  { "chave": "frontend-design",      "nome": "Front-end e Design de Interface",     "cor": "006b75", "descricao": "Tailwind CSS e UI/UX Design." },
+  { "chave": "produto",              "nome": "Produto e Inovação",                   "cor": "c2e0c6", "descricao": "Gestão de produto, Product-Led Growth, Design Thinking e Discovery-Driven Planning." },
+  { "chave": "prompts-contexto",     "nome": "IA Aplicada: Prompts e Contexto",      "cor": "a371f7", "descricao": "Engenharia e escrita de prompts, estruturação de contexto, economia de tokens e SEO para IA." },
+  { "chave": "raciocinio",           "nome": "Raciocínio e Análise",                "cor": "bfd4f2", "descricao": "Pensamento crítico, identificação de vieses, verificação de fatos, análise de requisitos e de negócios." },
+  { "chave": "gestao-decisao",       "nome": "Gestão e Decisão",                     "cor": "0052cc", "descricao": "Gestão de projetos, decisão executiva, OKR, BSC e gestão orientada a dados/analytics/IA." },
+  { "chave": "agil-lean-processos",  "nome": "Ágil, Lean e Processos",               "cor": "f9d0c4", "descricao": "Scrum, Agile, Kanban, Lean, Kaizen, Six Sigma, TOC, BPM e modelagem/mapeamento de processos." },
+  { "chave": "comunicacao",          "nome": "Comunicação e Conteúdo",               "cor": "e99695", "descricao": "Copywriting, storytelling, storytelling com dados, documentação técnica, escrita técnica e relatórios." },
+  { "chave": "conhecimento-pessoas", "nome": "Conhecimento, Pessoas e Mercado",      "cor": "fef2c0", "descricao": "Gestão de conhecimento, aprendizado contínuo, treinamento de usuários, pesquisa de mercado e gestão de skills." },
+  { "chave": "suporte-operacoes",    "nome": "Suporte, RPA e Operações",             "cor": "d4c5f9", "descricao": "Helpdesk, Service Desk, RPA e projetos de implantação de software." },
+  { "chave": "saude",                "nome": "Saúde",                                "cor": "c5def5", "descricao": "Gestão de saúde e gestão hospitalar." }
+]
