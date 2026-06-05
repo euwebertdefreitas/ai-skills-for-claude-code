@@ -112,9 +112,9 @@ São **100 skills** organizadas em **17 categorias**. Veja a lista completa, com
 | Categoria | Skills |
 | :-------- | :----- |
 | Desenvolvimento de Software | 7 |
-| IA, Dados e Machine Learning | 13 |
+| IA · Dados e Machine Learning | 13 |
 | Arquitetura de Software | 8 |
-| Qualidade, Testes e Revisão | 4 |
+| Qualidade · Testes e Revisão | 4 |
 | DevOps e Infraestrutura | 7 |
 | Segurança | 1 |
 | Bancos de Dados | 3 |
@@ -123,10 +123,10 @@ São **100 skills** organizadas em **17 categorias**. Veja a lista completa, com
 | IA Aplicada: Prompts e Contexto | 5 |
 | Raciocínio e Análise | 6 |
 | Gestão e Decisão | 9 |
-| Ágil, Lean e Processos | 13 |
+| Ágil · Lean e Processos | 13 |
 | Comunicação e Conteúdo | 6 |
-| Conhecimento, Pessoas e Mercado | 6 |
-| Suporte, RPA e Operações | 4 |
+| Conhecimento · Pessoas e Mercado | 6 |
+| Suporte · RPA e Operações | 4 |
 | Saúde | 2 |
 
 ## 🗂 Estrutura do repositório

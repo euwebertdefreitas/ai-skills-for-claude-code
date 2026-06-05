@@ -8,9 +8,9 @@ Cada skill e uma pasta em `skills/especialista-em-<slug>/` com `SKILL.md` (instr
 ## Indice por categoria
 
 - **Desenvolvimento de Software** (7 skills)
-- **IA, Dados e Machine Learning** (13 skills)
+- **IA · Dados e Machine Learning** (13 skills)
 - **Arquitetura de Software** (8 skills)
-- **Qualidade, Testes e Revisão** (4 skills)
+- **Qualidade · Testes e Revisão** (4 skills)
 - **DevOps e Infraestrutura** (7 skills)
 - **Segurança** (1 skills)
 - **Bancos de Dados** (3 skills)
@@ -19,10 +19,10 @@ Cada skill e uma pasta em `skills/especialista-em-<slug>/` com `SKILL.md` (instr
 - **IA Aplicada: Prompts e Contexto** (5 skills)
 - **Raciocínio e Análise** (6 skills)
 - **Gestão e Decisão** (9 skills)
-- **Ágil, Lean e Processos** (13 skills)
+- **Ágil · Lean e Processos** (13 skills)
 - **Comunicação e Conteúdo** (6 skills)
-- **Conhecimento, Pessoas e Mercado** (6 skills)
-- **Suporte, RPA e Operações** (4 skills)
+- **Conhecimento · Pessoas e Mercado** (6 skills)
+- **Suporte · RPA e Operações** (4 skills)
 - **Saúde** (2 skills)
 
 ## Desenvolvimento de Software
@@ -39,7 +39,7 @@ Skills de construção de aplicações: web, desktop, mobile, frontend, backend,
 | [Especialista em Desenvolvimento Mobile](../skills/especialista-em-desenvolvimento-mobile/SKILL.md) | `/especialista-em-desenvolvimento-mobile` | Quando o usuário for construir um app mobile. Não use para desktop (desenvolvimento-desktop) ou web (desenvolvimento-web). |
 | [Especialista em Desenvolvimento Web](../skills/especialista-em-desenvolvimento-web/SKILL.md) | `/especialista-em-desenvolvimento-web` | Quando o usuário for criar ou corrigir páginas/apps web de ponta a ponta no navegador. Não use para apps mobile nativos (use desenvolvimento-mobile) nem foco só em UI (use desenvolvimento-frontend). |
 
-## IA, Dados e Machine Learning
+## IA · Dados e Machine Learning
 
 Inteligência artificial, ciência de dados, machine learning, deep learning, NLP, big data, BI, MLOps e engenharia de dados.
 
@@ -74,7 +74,7 @@ Padrões e estilos de arquitetura: Clean Architecture, DDD, EDA, FDD, APIs REST 
 | [Especialista em Integração Via APIs](../skills/especialista-em-integracao-via-apis/SKILL.md) | `/especialista-em-integracao-via-apis` | Quando o usuário integra com APIs de terceiros ou entre sistemas. Não use para projetar a própria API REST (api-rest) ou backend interno (desenvolvimento-backend). |
 | [Especialista em Smart UI / Transaction Script](../skills/especialista-em-smart-ui-transaction-script/SKILL.md) | `/especialista-em-smart-ui-transaction-script` | Quando o usuário quer entregar rápido apps simples com lógica por transação/na UI. Não use para domínios complexos (domain-driven-design) ou arquiteturas em camadas (clean-architecture). |
 
-## Qualidade, Testes e Revisão
+## Qualidade · Testes e Revisão
 
 Qualidade de software, testes automatizados, revisão de código e engenharia de hardware.
 
@@ -178,7 +178,7 @@ Gestão de projetos, decisão executiva, OKR, BSC e gestão orientada a dados/an
 | [Especialista em OKR](../skills/especialista-em-okr/SKILL.md) | `/especialista-em-okr` | Quando o usuário define/gere OKRs (objetivos e resultados-chave). Não use para Balanced Scorecard (balanced-scorecard) ou gestão de produto (gestao-de-produto). |
 | [Especialista em Tomada de Decisão Executiva](../skills/especialista-em-tomada-de-decisao-executiva/SKILL.md) | `/especialista-em-tomada-de-decisao-executiva` | Quando o usuário enfrenta decisões estratégicas de liderança/alto impacto. Não use para decisões operacionais com dados (tomada-de-decisoes-baseada-em-dados). |
 
-## Ágil, Lean e Processos
+## Ágil · Lean e Processos
 
 Scrum, Agile, Kanban, Lean, Kaizen, Six Sigma, TOC, BPM e modelagem/mapeamento de processos.
 
@@ -211,7 +211,7 @@ Copywriting, storytelling, storytelling com dados, documentação técnica, escr
 | [Especialista em Storytelling](../skills/especialista-em-storytelling/SKILL.md) | `/especialista-em-storytelling` | Quando o usuário quer construir narrativas envolventes (não dados). Não use para narrativa com dados (storytelling-com-dados) ou copy de venda (copywriting). |
 | [Especialista em Storytelling com Dados](../skills/especialista-em-storytelling-com-dados/SKILL.md) | `/especialista-em-storytelling-com-dados` | Quando o usuário comunica insights a partir de dados/visualizações. Não use para narrativa sem dados (storytelling) ou construção de BI (business-intelligence). |
 
-## Conhecimento, Pessoas e Mercado
+## Conhecimento · Pessoas e Mercado
 
 Gestão de conhecimento, aprendizado contínuo, treinamento de usuários, pesquisa de mercado e gestão de skills.
 
@@ -224,7 +224,7 @@ Gestão de conhecimento, aprendizado contínuo, treinamento de usuários, pesqui
 | [Especialista em Pesquisa de Mercado](../skills/especialista-em-pesquisa-de-mercado/SKILL.md) | `/especialista-em-pesquisa-de-mercado` | Quando o usuário pesquisa mercado/clientes/concorrência. Não use para análise de negócios interna (analise-de-negocios) ou descoberta de produto (gestao-de-produto). |
 | [Especialista em Treinamento e Capacitação de Usuários](../skills/especialista-em-treinamento-de-usuarios/SKILL.md) | `/especialista-em-treinamento-de-usuarios` | Quando o usuário planeja treinar/capacitar usuários finais em software/sistemas. Não use para cultura de aprendizado (continuous-learning) ou documentação (documentacao-tecnica). |
 
-## Suporte, RPA e Operações
+## Suporte · RPA e Operações
 
 Helpdesk, Service Desk, RPA e projetos de implantação de software.
 
