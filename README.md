@@ -4,7 +4,7 @@
 
 Cada skill transforma o Claude Code em um **especialista sênior** no assunto: ao trabalhar em um projeto, o Claude carrega automaticamente o especialista relevante (ou você o invoca com `/especialista-em-<slug>`), trazendo princípios, processo de trabalho, boas práticas e antipadrões daquele domínio para o contexto.
 
-![Skills](https://img.shields.io/badge/skills-133-blue) ![Categorias](https://img.shields.io/badge/categorias-23-green) ![Idioma](https://img.shields.io/badge/idioma-PT--BR-yellow) ![Licença](https://img.shields.io/badge/licença-MIT-lightgrey)
+![Skills](https://img.shields.io/badge/skills-180-blue) ![Categorias](https://img.shields.io/badge/categorias-32-green) ![Idioma](https://img.shields.io/badge/idioma-PT--BR-yellow) ![Licença](https://img.shields.io/badge/licença-MIT-lightgrey)
 
 ---
 
@@ -25,7 +25,7 @@ Cada skill transforma o Claude Code em um **especialista sênior** no assunto: a
 
 O Claude Code suporta **skills**: arquivos `SKILL.md` com instruções que estendem as capacidades do assistente. Quando o assunto de uma skill é relevante para a sua conversa, o Claude a carrega; você também pode invocá-la diretamente com `/nome-da-skill`.
 
-Este repositório reúne **133 skills de persona**, cada uma representando um especialista sênior em uma área:
+Este repositório reúne **180 skills de persona**, cada uma representando um especialista sênior em uma área:
 
 - **Descrição e gatilhos em português** (`description` / `when_to_use`), para o Claude reconhecer quando aplicá-las.
 - **Corpo de instruções em inglês** (padrão técnico mais portável), com seções consistentes: identidade, quando usar, princípios, processo, boas práticas e antipadrões.
@@ -107,11 +107,11 @@ Como eu modelo um agregado em DDD respeitando os invariantes?
 
 ## 📚 Catálogo de skills
 
-São **133 skills** organizadas em **23 categorias**. Veja a lista completa, com comando e quando usar cada uma, em **[docs/CATALOGO.md](docs/CATALOGO.md)**.
+São **180 skills** organizadas em **32 categorias**. Veja a lista completa, com comando e quando usar cada uma, em **[docs/CATALOGO.md](docs/CATALOGO.md)**.
 
 | Categoria | Skills |
 | :-------- | :----- |
-| Desenvolvimento de Software | 8 |
+| Desenvolvimento de Software | 11 |
 | IA · Dados e Machine Learning | 13 |
 | Arquitetura de Software | 8 |
 | Qualidade · Testes e Revisão | 4 |
@@ -134,6 +134,15 @@ São **133 skills** organizadas em **23 categorias**. Veja a lista completa, com
 | Sistemas Windows e Infraestrutura | 6 |
 | E-mail e Mensageria | 6 |
 | Imagens Médicas | 4 |
+| Processos e Procedimentos | 5 |
+| Ferramentas e Métodos da Qualidade | 11 |
+| Gestão · Liderança e Governança | 8 |
+| Gestão e Governança em Saúde | 5 |
+| Qualidade e Segurança em Saúde | 2 |
+| Acreditação em Saúde | 4 |
+| Regulação · Ética e Compliance em Saúde | 4 |
+| Tecnologia e Informação em Saúde | 3 |
+| Economia e Indicadores em Saúde | 2 |
 
 ## 🗂 Estrutura do repositório
 

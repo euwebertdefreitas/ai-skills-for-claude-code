@@ -1,13 +1,13 @@
 # Catalogo de Skills
 
-Catalogo completo das **133 skills** "Especialista em X", agrupadas por categoria.
+Catalogo completo das **180 skills** "Especialista em X", agrupadas por categoria.
 Cada skill e uma pasta em `skills/especialista-em-<slug>/` com `SKILL.md` (instrucoes) e `reference.md` (aprofundamento).
 
 > Invoque qualquer skill no Claude Code com `/especialista-em-<slug>` ou deixe o Claude carregar automaticamente quando o assunto for relevante.
 
 ## Indice por categoria
 
-- **Desenvolvimento de Software** (8 skills)
+- **Desenvolvimento de Software** (11 skills)
 - **IA · Dados e Machine Learning** (13 skills)
 - **Arquitetura de Software** (8 skills)
 - **Qualidade · Testes e Revisão** (4 skills)
@@ -30,6 +30,15 @@ Cada skill e uma pasta em `skills/especialista-em-<slug>/` com `SKILL.md` (instr
 - **Sistemas Windows e Infraestrutura** (6 skills)
 - **E-mail e Mensageria** (6 skills)
 - **Imagens Médicas** (4 skills)
+- **Processos e Procedimentos** (5 skills)
+- **Ferramentas e Métodos da Qualidade** (11 skills)
+- **Gestão · Liderança e Governança** (8 skills)
+- **Gestão e Governança em Saúde** (5 skills)
+- **Qualidade e Segurança em Saúde** (2 skills)
+- **Acreditação em Saúde** (4 skills)
+- **Regulação · Ética e Compliance em Saúde** (4 skills)
+- **Tecnologia e Informação em Saúde** (3 skills)
+- **Economia e Indicadores em Saúde** (2 skills)
 
 ## Desenvolvimento de Software
 
@@ -45,6 +54,9 @@ Skills de construção de aplicações: web, desktop, mobile, frontend, backend,
 | [Especialista em Desenvolvimento Mobile](../skills/especialista-em-desenvolvimento-mobile/SKILL.md) | `/especialista-em-desenvolvimento-mobile` | Quando o usuário for construir um app mobile. Não use para desktop (desenvolvimento-desktop) ou web (desenvolvimento-web). |
 | [Especialista em Desenvolvimento Web](../skills/especialista-em-desenvolvimento-web/SKILL.md) | `/especialista-em-desenvolvimento-web` | Quando o usuário for criar ou corrigir páginas/apps web de ponta a ponta no navegador. Não use para apps mobile nativos (use desenvolvimento-mobile) nem foco só em UI (use desenvolvimento-frontend). |
 | [Especialista em Desenvolvimento de Extensões para Google Chrome](../skills/especialista-em-extensoes-chrome/SKILL.md) | `/especialista-em-extensoes-chrome` | Quando o usuário desenvolve extensões para o Chrome. Não use para desenvolvimento web geral (desenvolvimento-web) ou frontend (desenvolvimento-frontend). |
+| [Especialista em JSON](../skills/especialista-em-json/SKILL.md) | `/especialista-em-json` | Quando o usuário trabalha com JSON (schema, validação, transformação). Não use para XML (xml) ou design de API (api-rest). |
+| [Especialista em Orquestração de Agentes e Subagentes de IA do Claude e Claude Code](../skills/especialista-em-orquestracao-de-agentes-claude/SKILL.md) | `/especialista-em-orquestracao-de-agentes-claude` | Quando o usuário orquestra múltiplos agentes/subagents no Claude Code ou Agent SDK. Não use para criar uma skill/hook isolada (desenvolvimento-claude) ou teoria de agentes (desenvolvimento-de-agentes-de-ia). |
+| [Especialista em XML](../skills/especialista-em-xml/SKILL.md) | `/especialista-em-xml` | Quando o usuário trabalha com XML (schema, XPath, XSLT, parsing). Não use para JSON (json) ou APIs REST (api-rest). |
 
 ## IA · Dados e Machine Learning
 
@@ -324,4 +336,111 @@ Imagens de raio-X, ressonância magnética, tomografia e ultrassonografia.
 | [Especialista em Imagens de Ressonância Magnética](../skills/especialista-em-imagens-ressonancia-magnetica/SKILL.md) | `/especialista-em-imagens-ressonancia-magnetica` | Quando o usuário trabalha com aspectos técnicos/análise de MRI. Não use para outras modalidades (imagens-raio-x, imagens-tomografia, imagens-ultrassonografia). |
 | [Especialista em Imagens de Tomografia Computadorizada](../skills/especialista-em-imagens-tomografia/SKILL.md) | `/especialista-em-imagens-tomografia` | Quando o usuário trabalha com aspectos técnicos/análise de CT. Não use para outras modalidades (imagens-raio-x, imagens-ressonancia-magnetica, imagens-ultrassonografia). |
 | [Especialista em Imagens de Ultrassonografia](../skills/especialista-em-imagens-ultrassonografia/SKILL.md) | `/especialista-em-imagens-ultrassonografia` | Quando o usuário trabalha com aspectos técnicos/análise de ultrassonografia. Não use para outras modalidades (imagens-raio-x, imagens-tomografia, imagens-ressonancia-magnetica). |
+
+## Processos e Procedimentos
+
+Arquitetura de processos, qualidade/normas, POP, instrução de trabalho e metodologia HAP.
+
+| Skill | Comando | Quando usar |
+| :---- | :------ | :---------- |
+| [Especialista em Arquitetura de Processos](../skills/especialista-em-arquitetura-de-processos/SKILL.md) | `/especialista-em-arquitetura-de-processos` | Quando o usuário estrutura a arquitetura/hierarquia de processos da organização. Não use para modelar um processo específico (modelagem-de-processos) ou o ciclo BPM (gestao-de-processos-bpm). |
+| [Especialista em Instrução de Trabalho (IT)](../skills/especialista-em-instrucao-de-trabalho/SKILL.md) | `/especialista-em-instrucao-de-trabalho` | Quando o usuário detalha a execução de uma tarefa específica (nível mais granular). Não use para POP de processo (pop) ou documentação de produto (documentacao-tecnica). |
+| [Especialista em Metodologia HAP](../skills/especialista-em-metodologia-hap/SKILL.md) | `/especialista-em-metodologia-hap` | Quando o usuário aplica a metodologia HAP para estruturar/melhorar processos. Não use para POP/IT (pop, instrucao-de-trabalho) ou BPM amplo (gestao-de-processos-bpm). |
+| [Especialista em Procedimento Operacional Padrão (POP)](../skills/especialista-em-pop/SKILL.md) | `/especialista-em-pop` | Quando o usuário cria/padroniza Procedimentos Operacionais Padrão (POP/SOP). Não use para instruções de tarefa pontual (instrucao-de-trabalho) ou runbooks de TI (administracao-de-sistemas). |
+| [Especialista em Qualidade, Normas e Processos](../skills/especialista-em-qualidade-normas-processos/SKILL.md) | `/especialista-em-qualidade-normas-processos` | Quando o usuário integra qualidade + normas + processos (SGQ). Não use para ferramentas específicas da qualidade (qualidade-ferramentas) ou ISO 9001 isolada (iso-9001). |
+
+## Ferramentas e Métodos da Qualidade
+
+PDCA, benchmarking, CCQ, CEP, brainstorming, Pareto/5 porquês, Ishikawa/5W2H, matriz de risco, ISO.
+
+| Skill | Comando | Quando usar |
+| :---- | :------ | :---------- |
+| [Especialista em Benchmarking](../skills/especialista-em-benchmarking/SKILL.md) | `/especialista-em-benchmarking` | Quando o usuário compara desempenho/práticas com referências (benchmarking). Não use para indicadores internos (data-driven-management) ou pesquisa de mercado (pesquisa-de-mercado). |
+| [Especialista em Brainstorming](../skills/especialista-em-brainstorming/SKILL.md) | `/especialista-em-brainstorming` | Quando o usuário facilita geração de ideias em grupo. Não use para design thinking amplo (design-thinking) ou priorização de produto (gestao-de-produto). |
+| [Especialista em Ciclo PDCA](../skills/especialista-em-ciclo-pdca/SKILL.md) | `/especialista-em-ciclo-pdca` | Quando o usuário aplica o ciclo PDCA para melhoria. Não use para Kaizen amplo (kaizen) ou DMAIC/Six Sigma (six-sigma). |
+| [Especialista em Círculos de Controle da Qualidade (CCQ)](../skills/especialista-em-circulos-de-qualidade/SKILL.md) | `/especialista-em-circulos-de-qualidade` | Quando o usuário implementa Círculos de Controle da Qualidade (CCQ/QCC). Não use para Kaizen amplo (kaizen) ou TQM (total-quality-management). |
+| [Especialista em Controle Estatístico de Processo (CEP)](../skills/especialista-em-controle-estatistico-processo/SKILL.md) | `/especialista-em-controle-estatistico-processo` | Quando o usuário monitora processos com estatística (CEP/SPC, cartas de controle). Não use para Six Sigma amplo (six-sigma) ou análise de dados geral (ciencia-de-dados). |
+| [Especialista em Diagrama de Ishikawa e 5W2H](../skills/especialista-em-ishikawa-e-5w2h/SKILL.md) | `/especialista-em-ishikawa-e-5w2h` | Quando o usuário usa Ishikawa (causa-efeito) e/ou 5W2H (plano de ação). Não use para Pareto/5 Porquês (pareto-e-5-porques) ou matriz de risco (matriz-de-risco). |
+| [Especialista em ISO 14001 e OHSAS 18001 (ISO 45001)](../skills/especialista-em-iso-14001-ohsas-18001/SKILL.md) | `/especialista-em-iso-14001-ohsas-18001` | Quando o foco é gestão ambiental (14001) e/ou saúde e segurança ocupacional (45001/OHSAS 18001). Não use para ISO 9001 (iso-9001) ou segurança do paciente (seguranca-do-paciente). |
+| [Especialista em ISO 9001](../skills/especialista-em-iso-9001/SKILL.md) | `/especialista-em-iso-9001` | Quando o usuário implementa/audita ISO 9001 especificamente. Não use para ISO 14001/OHSAS (iso-14001-ohsas-18001) ou qualidade genérica (qualidade-normas-processos). |
+| [Especialista em Matriz de Risco](../skills/especialista-em-matriz-de-risco/SKILL.md) | `/especialista-em-matriz-de-risco` | Quando o usuário avalia/prioriza riscos com matriz probabilidade×impacto. Não use para gestão de risco operacional ampla (gestao-de-projetos) ou risco de segurança (cyber-security). |
+| [Especialista em Pareto e 5 Porquês](../skills/especialista-em-pareto-e-5-porques/SKILL.md) | `/especialista-em-pareto-e-5-porques` | Quando o usuário prioriza causas (Pareto) e investiga causa-raiz (5 Porquês). Não use para Ishikawa/5W2H (ishikawa-e-5w2h) ou Six Sigma (six-sigma). |
+| [Especialista em Sistema Quantitativo de Pontuação](../skills/especialista-em-sistema-de-pontuacao/SKILL.md) | `/especialista-em-sistema-de-pontuacao` | Quando o usuário cria sistemas de pontuação/ponderação para avaliar/priorizar. Não use para matriz de risco (matriz-de-risco) ou decisão com dados (tomada-de-decisoes-baseada-em-dados). |
+
+## Gestão · Liderança e Governança
+
+Liderança, consultoria de projetos, PMBOK, governança corporativa/TI e competências gerenciais.
+
+| Skill | Comando | Quando usar |
+| :---- | :------ | :---------- |
+| [Especialista em Abordagem Administrativa](../skills/especialista-em-abordagem-administrativa/SKILL.md) | `/especialista-em-abordagem-administrativa` | Quando o foco são as teorias/abordagens da administração. Não use para funções administrativas POCCC (funcoes-administrativas) ou competências gerenciais (competencias-gerenciais). |
+| [Especialista em Competências Gerenciais e Comportamentais](../skills/especialista-em-competencias-gerenciais/SKILL.md) | `/especialista-em-competencias-gerenciais` | Quando o foco é desenvolver competências gerenciais/comportamentais. Não use para liderança prática (lideranca-e-gestao-de-pessoas) ou gestão de skills (gestao-de-skills). |
+| [Especialista em Consultoria de Projetos](../skills/especialista-em-consultoria-de-projetos/SKILL.md) | `/especialista-em-consultoria-de-projetos` | Quando o usuário atua/estrutura consultoria de projetos (diagnóstico→proposta→entrega). Não use para gestão de projetos interna (gestao-de-projetos) ou análise de negócios (analise-de-negocios). |
+| [Especialista em Funções Administrativas (POC3 de Fayol): planejar, organizar, comandar, coordenar e controlar](../skills/especialista-em-funcoes-administrativas/SKILL.md) | `/especialista-em-funcoes-administrativas` | Quando o usuário aplica as funções administrativas (planejar/organizar/comandar/coordenar/controlar). Não use para teorias da administração (abordagem-administrativa) ou liderança (lideranca-e-gestao-de-pessoas). |
+| [Especialista em Governança Corporativa](../skills/especialista-em-governanca-corporativa/SKILL.md) | `/especialista-em-governanca-corporativa` | Quando o foco é governança corporativa empresarial. Não use para governança hospitalar (governanca-hospitalar) ou de TI (governanca-ti). |
+| [Especialista em Gestão e Governança de TI](../skills/especialista-em-governanca-ti/SKILL.md) | `/especialista-em-governanca-ti` | Quando o foco é governança/gestão estratégica de TI. Não use para serviços ITSM operacionais (service-desk) ou administração de servidores (administracao-de-sistemas). |
+| [Especialista em Liderança e Gestão de Pessoas](../skills/especialista-em-lideranca-e-gestao-de-pessoas/SKILL.md) | `/especialista-em-lideranca-e-gestao-de-pessoas` | Quando o usuário lidera/gerencia pessoas e equipes. Não use para competências gerenciais como teoria (competencias-gerenciais) ou RH/recrutamento (recrutamento). |
+| [Especialista em PMBOK](../skills/especialista-em-pmbok/SKILL.md) | `/especialista-em-pmbok` | Quando o usuário aplica o PMBOK/PMI especificamente. Não use para gestão de projetos genérica (gestao-de-projetos) ou ágil (metodologias-ageis). |
+
+## Gestão e Governança em Saúde
+
+Governança hospitalar, gestão e liderança, excelência operacional, sistemas e organizações de saúde.
+
+| Skill | Comando | Quando usar |
+| :---- | :------ | :---------- |
+| [Especialista em Boas Práticas, Excelência Operacional e Visão Estratégica na Gestão em Saúde](../skills/especialista-em-excelencia-operacional-saude/SKILL.md) | `/especialista-em-excelencia-operacional-saude` | Quando o foco é excelência operacional/estratégia em gestão em saúde. Não use para qualidade assistencial específica (qualidade-em-saude) ou governança (governanca-hospitalar). |
+| [Especialista em Gestão, Administração e Liderança em Saúde](../skills/especialista-em-gestao-e-lideranca-saude/SKILL.md) | `/especialista-em-gestao-e-lideranca-saude` | Quando o foco é administração+liderança em organizações de saúde. Não use para governança institucional (governanca-hospitalar) ou liderança genérica (lideranca-e-gestao-de-pessoas). |
+| [Especialista em Gestão e Governança Hospitalar](../skills/especialista-em-governanca-hospitalar/SKILL.md) | `/especialista-em-governanca-hospitalar` | Quando o foco é governança/estrutura institucional de hospitais. Não use para operação do dia a dia (gestao-hospitalar) ou gestão de saúde no nível de sistema (gestao-de-saude). |
+| [Especialista em Tipos de Organizações de Saúde](../skills/especialista-em-organizacoes-de-saude/SKILL.md) | `/especialista-em-organizacoes-de-saude` | Quando o foco é tipos/características das organizações de saúde. Não use para sistemas de saúde (sistemas-de-saude) ou gestão hospitalar (gestao-hospitalar). |
+| [Especialista em Sistemas de Saúde: modelos e contexto brasileiro](../skills/especialista-em-sistemas-de-saude/SKILL.md) | `/especialista-em-sistemas-de-saude` | Quando o foco é comparar/entender modelos de sistemas de saúde e o contexto brasileiro. Não use para base legal do SUS (base-legal-sus) ou tipos de organizações (organizacoes-de-saude). |
+
+## Qualidade e Segurança em Saúde
+
+Segurança do paciente e qualidade assistencial.
+
+| Skill | Comando | Quando usar |
+| :---- | :------ | :---------- |
+| [Especialista em Qualidade em Saúde](../skills/especialista-em-qualidade-em-saude/SKILL.md) | `/especialista-em-qualidade-em-saude` | Quando o foco é qualidade assistencial em saúde (melhoria contínua, protocolos). Não use para segurança do paciente especificamente (seguranca-do-paciente) ou acreditação (acreditacao-*). |
+| [Especialista em Segurança do Paciente](../skills/especialista-em-seguranca-do-paciente/SKILL.md) | `/especialista-em-seguranca-do-paciente` | Quando o foco é segurança do paciente (riscos, eventos, protocolos, cultura). Não use para qualidade assistencial ampla (qualidade-em-saude) ou acreditação (acreditacao-*). |
+
+## Acreditação em Saúde
+
+Acreditação ONA, JCI, Qmentum e HIMSS.
+
+| Skill | Comando | Quando usar |
+| :---- | :------ | :---------- |
+| [Especialista em HIMSS (Healthcare Information and Management Systems Society)](../skills/especialista-em-acreditacao-himss/SKILL.md) | `/especialista-em-acreditacao-himss` | Quando o foco é maturidade digital em saúde via modelos HIMSS (EMRAM etc.). Não use para acreditação assistencial (acreditacao-ona/jci/qmentum) ou transformação digital ampla (transformacao-digital-saude). |
+| [Especialista em Acreditação JCI (Joint Commission International)](../skills/especialista-em-acreditacao-jci/SKILL.md) | `/especialista-em-acreditacao-jci` | Quando o foco é acreditação JCI (internacional). Não use para ONA (acreditacao-ona), Qmentum (acreditacao-qmentum) ou HIMSS (acreditacao-himss). |
+| [Especialista em Acreditação ONA (Organização Nacional de Acreditação)](../skills/especialista-em-acreditacao-ona/SKILL.md) | `/especialista-em-acreditacao-ona` | Quando o foco é acreditação ONA (Brasil). Não use para JCI (acreditacao-jci), Qmentum (acreditacao-qmentum) ou HIMSS (acreditacao-himss). |
+| [Especialista em Acreditação Qmentum International (Accreditation Canada)](../skills/especialista-em-acreditacao-qmentum/SKILL.md) | `/especialista-em-acreditacao-qmentum` | Quando o foco é acreditação Qmentum (Accreditation Canada). Não use para ONA (acreditacao-ona), JCI (acreditacao-jci) ou HIMSS (acreditacao-himss). |
+
+## Regulação · Ética e Compliance em Saúde
+
+Base legal do SUS, órgãos reguladores, ética em saúde e LGPD/compliance.
+
+| Skill | Comando | Quando usar |
+| :---- | :------ | :---------- |
+| [Especialista em Base Legal do SUS e Ordenamento Normativo](../skills/especialista-em-base-legal-sus/SKILL.md) | `/especialista-em-base-legal-sus` | Quando o foco é o arcabouço legal/normativo do SUS no Brasil. Não use para órgãos reguladores (orgaos-reguladores-saude) ou LGPD/compliance (lgpd-compliance-saude). |
+| [Especialista em Ética em Saúde e Responsabilidade Profissional](../skills/especialista-em-etica-em-saude/SKILL.md) | `/especialista-em-etica-em-saude` | Quando o foco é ética/bioética e responsabilidade profissional em saúde. Não use para LGPD/dados (lgpd-compliance-saude) ou regulação (orgaos-reguladores-saude). |
+| [Especialista em Direito Digital, LGPD e Compliance em Saúde](../skills/especialista-em-lgpd-compliance-saude/SKILL.md) | `/especialista-em-lgpd-compliance-saude` | Quando o foco é LGPD/compliance e direito digital em dados de saúde. Não use para ética clínica (etica-em-saude) ou segurança técnica geral (cyber-security). |
+| [Especialista em Órgãos Reguladores e Governança em Saúde](../skills/especialista-em-orgaos-reguladores-saude/SKILL.md) | `/especialista-em-orgaos-reguladores-saude` | Quando o foco são os órgãos reguladores e a governança regulatória em saúde. Não use para a base legal do SUS (base-legal-sus) ou LGPD (lgpd-compliance-saude). |
+
+## Tecnologia e Informação em Saúde
+
+Tecnologia na gestão, transformação digital/IA/interoperabilidade e informação em saúde.
+
+| Skill | Comando | Quando usar |
+| :---- | :------ | :---------- |
+| [Especialista em Informação em Saúde](../skills/especialista-em-informacao-em-saude/SKILL.md) | `/especialista-em-informacao-em-saude` | Quando o foco é informação/dados em saúde (clínicos+administrativos) e inteligência de gestão. Não use para indicadores específicos (indicadores-de-saude) ou interoperabilidade técnica (transformacao-digital-saude). |
+| [Especialista em Tendências e Tecnologia Aplicada à Gestão em Saúde](../skills/especialista-em-tecnologia-gestao-saude/SKILL.md) | `/especialista-em-tecnologia-gestao-saude` | Quando o foco é tendências/tecnologia aplicada à gestão em saúde. Não use para transformação digital/IA/interoperabilidade aprofundada (transformacao-digital-saude) ou TI geral (governanca-ti). |
+| [Especialista em Transformação Digital, IA e Interoperabilidade em Saúde](../skills/especialista-em-transformacao-digital-saude/SKILL.md) | `/especialista-em-transformacao-digital-saude` | Quando o foco é transformação digital, IA e interoperabilidade em saúde (FHIR/RNDS). Não use para adoção de tecnologia geral (tecnologia-gestao-saude) ou imagens médicas (imagens-*). |
+
+## Economia e Indicadores em Saúde
+
+Indicadores e KPIs, custos e financiamento em saúde.
+
+| Skill | Comando | Quando usar |
+| :---- | :------ | :---------- |
+| [Especialista em Custos e Financiamento em Saúde](../skills/especialista-em-custos-e-financiamento-saude/SKILL.md) | `/especialista-em-custos-e-financiamento-saude` | Quando o foco é custos, financiamento e sustentabilidade econômica em saúde. Não use para indicadores assistenciais (indicadores-de-saude) ou gestão hospitalar operacional (gestao-hospitalar). |
+| [Especialista em Indicadores de Saúde e KPIs na Gestão em Saúde](../skills/especialista-em-indicadores-de-saude/SKILL.md) | `/especialista-em-indicadores-de-saude` | Quando o foco é definir/analisar indicadores e KPIs de saúde. Não use para custos/financiamento (custos-e-financiamento-saude) ou informação clínica ampla (informacao-em-saude). |
 

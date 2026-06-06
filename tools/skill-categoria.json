@@ -154,5 +154,62 @@
   "imagens-raio-x": "imagens-medicas",
   "imagens-ressonancia-magnetica": "imagens-medicas",
   "imagens-tomografia": "imagens-medicas",
-  "imagens-ultrassonografia": "imagens-medicas"
+  "imagens-ultrassonografia": "imagens-medicas",
+
+  "xml": "desenvolvimento",
+  "json": "desenvolvimento",
+  "orquestracao-de-agentes-claude": "desenvolvimento",
+
+  "arquitetura-de-processos": "processos-procedimentos",
+  "qualidade-normas-processos": "processos-procedimentos",
+  "pop": "processos-procedimentos",
+  "instrucao-de-trabalho": "processos-procedimentos",
+  "metodologia-hap": "processos-procedimentos",
+
+  "ciclo-pdca": "qualidade-ferramentas",
+  "benchmarking": "qualidade-ferramentas",
+  "circulos-de-qualidade": "qualidade-ferramentas",
+  "controle-estatistico-processo": "qualidade-ferramentas",
+  "brainstorming": "qualidade-ferramentas",
+  "pareto-e-5-porques": "qualidade-ferramentas",
+  "ishikawa-e-5w2h": "qualidade-ferramentas",
+  "matriz-de-risco": "qualidade-ferramentas",
+  "sistema-de-pontuacao": "qualidade-ferramentas",
+  "iso-9001": "qualidade-ferramentas",
+  "iso-14001-ohsas-18001": "qualidade-ferramentas",
+
+  "lideranca-e-gestao-de-pessoas": "gestao-lideranca",
+  "consultoria-de-projetos": "gestao-lideranca",
+  "governanca-corporativa": "gestao-lideranca",
+  "abordagem-administrativa": "gestao-lideranca",
+  "funcoes-administrativas": "gestao-lideranca",
+  "competencias-gerenciais": "gestao-lideranca",
+  "governanca-ti": "gestao-lideranca",
+  "pmbok": "gestao-lideranca",
+
+  "governanca-hospitalar": "saude-gestao",
+  "gestao-e-lideranca-saude": "saude-gestao",
+  "excelencia-operacional-saude": "saude-gestao",
+  "organizacoes-de-saude": "saude-gestao",
+  "sistemas-de-saude": "saude-gestao",
+
+  "seguranca-do-paciente": "saude-qualidade-seguranca",
+  "qualidade-em-saude": "saude-qualidade-seguranca",
+
+  "acreditacao-ona": "saude-acreditacao",
+  "acreditacao-jci": "saude-acreditacao",
+  "acreditacao-qmentum": "saude-acreditacao",
+  "acreditacao-himss": "saude-acreditacao",
+
+  "base-legal-sus": "saude-regulacao-etica",
+  "orgaos-reguladores-saude": "saude-regulacao-etica",
+  "etica-em-saude": "saude-regulacao-etica",
+  "lgpd-compliance-saude": "saude-regulacao-etica",
+
+  "tecnologia-gestao-saude": "saude-tecnologia-info",
+  "transformacao-digital-saude": "saude-tecnologia-info",
+  "informacao-em-saude": "saude-tecnologia-info",
+
+  "indicadores-de-saude": "saude-economia",
+  "custos-e-financiamento-saude": "saude-economia"
 }

@@ -21,5 +21,14 @@
   { "chave": "carreira",             "nome": "Carreira e Recrutamento",              "cor": "b08800", "descricao": "Recrutamento profissional e currículo com foco em ATS." },
   { "chave": "sistemas-windows",     "nome": "Sistemas Windows e Infraestrutura",    "cor": "0969da", "descricao": "Windows Desktop/Server, Active Directory, VPN, Windows Terminal e ngrok." },
   { "chave": "comunicacao-mensageria", "nome": "E-mail e Mensageria",                "cor": "8250df", "descricao": "Arquivos de e-mail, Gmail, Outlook, Thunderbird, WhatsApp e Telegram." },
-  { "chave": "imagens-medicas",      "nome": "Imagens Médicas",                      "cor": "cf222e", "descricao": "Imagens de raio-X, ressonância magnética, tomografia e ultrassonografia." }
+  { "chave": "imagens-medicas",      "nome": "Imagens Médicas",                      "cor": "cf222e", "descricao": "Imagens de raio-X, ressonância magnética, tomografia e ultrassonografia." },
+  { "chave": "processos-procedimentos", "nome": "Processos e Procedimentos",         "cor": "5319e7", "descricao": "Arquitetura de processos, qualidade/normas, POP, instrução de trabalho e metodologia HAP." },
+  { "chave": "qualidade-ferramentas", "nome": "Ferramentas e Métodos da Qualidade",  "cor": "0e8a16", "descricao": "PDCA, benchmarking, CCQ, CEP, brainstorming, Pareto/5 porquês, Ishikawa/5W2H, matriz de risco, ISO." },
+  { "chave": "gestao-lideranca",     "nome": "Gestão · Liderança e Governança",      "cor": "0052cc", "descricao": "Liderança, consultoria de projetos, PMBOK, governança corporativa/TI e competências gerenciais." },
+  { "chave": "saude-gestao",         "nome": "Gestão e Governança em Saúde",         "cor": "1d76db", "descricao": "Governança hospitalar, gestão e liderança, excelência operacional, sistemas e organizações de saúde." },
+  { "chave": "saude-qualidade-seguranca", "nome": "Qualidade e Segurança em Saúde",  "cor": "d93f0b", "descricao": "Segurança do paciente e qualidade assistencial." },
+  { "chave": "saude-acreditacao",    "nome": "Acreditação em Saúde",                 "cor": "6f42c1", "descricao": "Acreditação ONA, JCI, Qmentum e HIMSS." },
+  { "chave": "saude-regulacao-etica", "nome": "Regulação · Ética e Compliance em Saúde", "cor": "b60205", "descricao": "Base legal do SUS, órgãos reguladores, ética em saúde e LGPD/compliance." },
+  { "chave": "saude-tecnologia-info", "nome": "Tecnologia e Informação em Saúde",    "cor": "0969da", "descricao": "Tecnologia na gestão, transformação digital/IA/interoperabilidade e informação em saúde." },
+  { "chave": "saude-economia",       "nome": "Economia e Indicadores em Saúde",      "cor": "bf8700", "descricao": "Indicadores e KPIs, custos e financiamento em saúde." }
 ]
