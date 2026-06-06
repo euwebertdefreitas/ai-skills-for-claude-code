@@ -1,13 +1,13 @@
 # Catalogo de Skills
 
-Catalogo completo das **100 skills** "Especialista em X", agrupadas por categoria.
+Catalogo completo das **133 skills** "Especialista em X", agrupadas por categoria.
 Cada skill e uma pasta em `skills/especialista-em-<slug>/` com `SKILL.md` (instrucoes) e `reference.md` (aprofundamento).
 
 > Invoque qualquer skill no Claude Code com `/especialista-em-<slug>` ou deixe o Claude carregar automaticamente quando o assunto for relevante.
 
 ## Indice por categoria
 
-- **Desenvolvimento de Software** (7 skills)
+- **Desenvolvimento de Software** (8 skills)
 - **IA · Dados e Machine Learning** (13 skills)
 - **Arquitetura de Software** (8 skills)
 - **Qualidade · Testes e Revisão** (4 skills)
@@ -24,6 +24,12 @@ Cada skill e uma pasta em `skills/especialista-em-<slug>/` com `SKILL.md` (instr
 - **Conhecimento · Pessoas e Mercado** (6 skills)
 - **Suporte · RPA e Operações** (4 skills)
 - **Saúde** (2 skills)
+- **Produtividade e Office** (5 skills)
+- **Marketing, Conteúdo e Social** (9 skills)
+- **Carreira e Recrutamento** (2 skills)
+- **Sistemas Windows e Infraestrutura** (6 skills)
+- **E-mail e Mensageria** (6 skills)
+- **Imagens Médicas** (4 skills)
 
 ## Desenvolvimento de Software
 
@@ -38,6 +44,7 @@ Skills de construção de aplicações: web, desktop, mobile, frontend, backend,
 | [Especialista em Desenvolvimento Fullstack](../skills/especialista-em-desenvolvimento-fullstack/SKILL.md) | `/especialista-em-desenvolvimento-fullstack` | Quando o usuário precisar de uma feature ou app completo cruzando frontend, backend e banco. Não use quando o foco é exclusivamente uma camada (use desenvolvimento-frontend ou desenvolvimento-backend). |
 | [Especialista em Desenvolvimento Mobile](../skills/especialista-em-desenvolvimento-mobile/SKILL.md) | `/especialista-em-desenvolvimento-mobile` | Quando o usuário for construir um app mobile. Não use para desktop (desenvolvimento-desktop) ou web (desenvolvimento-web). |
 | [Especialista em Desenvolvimento Web](../skills/especialista-em-desenvolvimento-web/SKILL.md) | `/especialista-em-desenvolvimento-web` | Quando o usuário for criar ou corrigir páginas/apps web de ponta a ponta no navegador. Não use para apps mobile nativos (use desenvolvimento-mobile) nem foco só em UI (use desenvolvimento-frontend). |
+| [Especialista em Desenvolvimento de Extensões para Google Chrome](../skills/especialista-em-extensoes-chrome/SKILL.md) | `/especialista-em-extensoes-chrome` | Quando o usuário desenvolve extensões para o Chrome. Não use para desenvolvimento web geral (desenvolvimento-web) ou frontend (desenvolvimento-frontend). |
 
 ## IA · Dados e Machine Learning
 
@@ -243,4 +250,78 @@ Gestão de saúde e gestão hospitalar.
 | :---- | :------ | :---------- |
 | [Especialista em Gestão de Saúde](../skills/especialista-em-gestao-de-saude/SKILL.md) | `/especialista-em-gestao-de-saude` | Quando o foco é gestão de saúde/serviços assistenciais no nível de sistema/serviço. Não use para gestão hospitalar operacional (gestao-hospitalar). |
 | [Especialista em Gestão Hospitalar](../skills/especialista-em-gestao-hospitalar/SKILL.md) | `/especialista-em-gestao-hospitalar` | Quando o foco é a operação/gestão de um hospital (leitos, fluxo, recursos). Não use para gestão de saúde em nível de sistema (gestao-de-saude). |
+
+## Produtividade e Office
+
+Documentos, planilhas, apresentações, VBA e Google Drive.
+
+| Skill | Comando | Quando usar |
+| :---- | :------ | :---------- |
+| [Especialista em Apresentações](../skills/especialista-em-apresentacoes/SKILL.md) | `/especialista-em-apresentacoes` | Quando o usuário cria/edita apresentações de slides (.ppt, .pptx). Não use para documentos (documentos) ou storytelling sem slides (storytelling). |
+| [Especialista em Documentos](../skills/especialista-em-documentos/SKILL.md) | `/especialista-em-documentos` | Quando o usuário cria/edita/converte documentos de texto (.md, .doc, .docx). Não use para planilhas (planilhas) ou apresentações (apresentacoes). |
+| [Especialista em Google Drive](../skills/especialista-em-google-drive/SKILL.md) | `/especialista-em-google-drive` | Quando o usuário organiza/compartilha no Google Drive. Não use para Gmail (gmail) ou gestão de conhecimento ampla (gestao-de-conhecimento). |
+| [Especialista em Planilhas](../skills/especialista-em-planilhas/SKILL.md) | `/especialista-em-planilhas` | Quando o usuário trabalha com planilhas/CSV (.xls, .xlsx, .csv, .xlsm). Não use para macros VBA (vba) ou análise estatística pesada (ciencia-de-dados). |
+| [Especialista em VBA](../skills/especialista-em-vba/SKILL.md) | `/especialista-em-vba` | Quando o usuário automatiza Office com VBA/macros. Não use para uso normal de planilhas sem macro (planilhas) ou Python (processamento-de-dados). |
+
+## Marketing, Conteúdo e Social
+
+Marketing, marketing digital, e-mail marketing, web design, landing pages, e-mails HTML e redes sociais (LinkedIn, Instagram, social media).
+
+| Skill | Comando | Quando usar |
+| :---- | :------ | :---------- |
+| [Especialista em E-mail Marketing](../skills/especialista-em-email-marketing/SKILL.md) | `/especialista-em-email-marketing` | Quando o usuário cria campanhas/fluxos de e-mail marketing. Não use para o HTML do e-mail (emails-html) ou marketing digital amplo (marketing-digital). |
+| [Especialista em E-mails HTML](../skills/especialista-em-emails-html/SKILL.md) | `/especialista-em-emails-html` | Quando o usuário codifica o HTML de e-mails. Não use para estratégia de campanhas (email-marketing) ou web (desenvolvimento-web). |
+| [Especialista em Instagram](../skills/especialista-em-instagram/SKILL.md) | `/especialista-em-instagram` | Quando o usuário cresce/gerencia presença no Instagram. Não use para social media multicanal (social-media) ou marketing digital amplo (marketing-digital). |
+| [Especialista em Landing Pages](../skills/especialista-em-landing-pages/SKILL.md) | `/especialista-em-landing-pages` | Quando o usuário cria/otimiza páginas de conversão. Não use para design de site amplo (web-design) ou copy isolada (copywriting). |
+| [Especialista em LinkedIn](../skills/especialista-em-linkedin/SKILL.md) | `/especialista-em-linkedin` | Quando o usuário otimiza presença/atividade no LinkedIn. Não use para recrutamento amplo (recrutamento) ou currículo (curriculo-ats). |
+| [Especialista em Marketing](../skills/especialista-em-marketing/SKILL.md) | `/especialista-em-marketing` | Quando o usuário trata de marketing em nível estratégico. Não use para canais digitais específicos (marketing-digital) ou copy (copywriting). |
+| [Especialista em Marketing Digital](../skills/especialista-em-marketing-digital/SKILL.md) | `/especialista-em-marketing-digital` | Quando o usuário executa marketing em canais digitais. Não use para estratégia ampla (marketing) ou e-mail especificamente (email-marketing). |
+| [Especialista em Social Media](../skills/especialista-em-social-media/SKILL.md) | `/especialista-em-social-media` | Quando o usuário gere social media de forma multicanal/estratégica. Não use para uma plataforma específica (instagram, linkedin) ou marketing amplo (marketing-digital). |
+| [Especialista em Web Design](../skills/especialista-em-web-design/SKILL.md) | `/especialista-em-web-design` | Quando o usuário projeta a aparência/layout de sites. Não use para UX de produto/app (ui-ux-design) ou implementação frontend (desenvolvimento-frontend). |
+
+## Carreira e Recrutamento
+
+Recrutamento profissional e currículo com foco em ATS.
+
+| Skill | Comando | Quando usar |
+| :---- | :------ | :---------- |
+| [Especialista em Currículo Profissional com foco em ATS](../skills/especialista-em-curriculo-ats/SKILL.md) | `/especialista-em-curriculo-ats` | Quando o usuário cria/otimiza currículos para passar em ATS (tech e saúde). Não use para recrutar (recrutamento) ou perfil LinkedIn (linkedin). |
+| [Especialista em Recrutamento Profissional](../skills/especialista-em-recrutamento/SKILL.md) | `/especialista-em-recrutamento` | Quando o usuário recruta/seleciona profissionais. Não use para criar currículos (curriculo-ats) ou uso do LinkedIn (linkedin). |
+
+## Sistemas Windows e Infraestrutura
+
+Windows Desktop/Server, Active Directory, VPN, Windows Terminal e ngrok.
+
+| Skill | Comando | Quando usar |
+| :---- | :------ | :---------- |
+| [Especialista em Active Directory](../skills/especialista-em-active-directory/SKILL.md) | `/especialista-em-active-directory` | Quando o usuário administra Active Directory (domínios, GPO, identidades). Não use para administração geral do servidor (windows-server) ou redes (arquitetura-de-redes). |
+| [Especialista em ngrok](../skills/especialista-em-ngrok/SKILL.md) | `/especialista-em-ngrok` | Quando o usuário usa ngrok para expor/testar serviços locais. Não use para VPN corporativa (vpn) ou deploy de produção (devops). |
+| [Especialista em VPN](../skills/especialista-em-vpn/SKILL.md) | `/especialista-em-vpn` | Quando o usuário configura/soluciona VPNs. Não use para arquitetura de redes ampla (arquitetura-de-redes) ou ngrok/túnel de dev (ngrok). |
+| [Especialista em Windows Desktop (10 e 11)](../skills/especialista-em-windows-desktop/SKILL.md) | `/especialista-em-windows-desktop` | Quando o usuário configura/soluciona problemas do Windows 10/11 desktop. Não use para Windows Server (windows-server) ou terminal/scripts (windows-terminal). |
+| [Especialista em Windows Server (2025 e 2022)](../skills/especialista-em-windows-server/SKILL.md) | `/especialista-em-windows-server` | Quando o usuário administra Windows Server 2022/2025. Não use para AD especificamente (active-directory) ou desktop (windows-desktop). |
+| [Especialista em Windows Terminal (CMD e PowerShell)](../skills/especialista-em-windows-terminal/SKILL.md) | `/especialista-em-windows-terminal` | Quando o usuário usa/scripta CMD ou PowerShell no Windows. Não use para administração de servidor (windows-server) ou Linux/bash. |
+
+## E-mail e Mensageria
+
+Arquivos de e-mail, Gmail, Outlook, Thunderbird, WhatsApp e Telegram.
+
+| Skill | Comando | Quando usar |
+| :---- | :------ | :---------- |
+| [Especialista em Arquivos de E-mail](../skills/especialista-em-arquivos-de-email/SKILL.md) | `/especialista-em-arquivos-de-email` | Quando o usuário manipula/converte arquivos de e-mail (.pst, .ost, .eml, .msg, .mbox, .oft). Não use para usar o Outlook (outlook) ou Thunderbird (thunderbird) como app. |
+| [Especialista em Gmail](../skills/especialista-em-gmail/SKILL.md) | `/especialista-em-gmail` | Quando o usuário organiza/usa o Gmail. Não use para arquivos de e-mail (arquivos-de-email) ou Outlook/Thunderbird (outlook, thunderbird). |
+| [Especialista em Outlook](../skills/especialista-em-outlook/SKILL.md) | `/especialista-em-outlook` | Quando o usuário organiza/usa o Outlook como aplicativo. Não use para arquivos de e-mail (arquivos-de-email) ou Gmail/Thunderbird (gmail, thunderbird). |
+| [Especialista em Telegram](../skills/especialista-em-telegram/SKILL.md) | `/especialista-em-telegram` | Quando o usuário usa/automatiza Telegram (bots, canais, grupos). Não use para WhatsApp (whatsapp) ou social media amplo (social-media). |
+| [Especialista em Thunderbird](../skills/especialista-em-thunderbird/SKILL.md) | `/especialista-em-thunderbird` | Quando o usuário configura/usa o Thunderbird. Não use para arquivos de e-mail genéricos (arquivos-de-email) ou Outlook/Gmail (outlook, gmail). |
+| [Especialista em WhatsApp](../skills/especialista-em-whatsapp/SKILL.md) | `/especialista-em-whatsapp` | Quando o usuário usa/automatiza WhatsApp ou WhatsApp Business. Não use para Telegram (telegram) ou social media amplo (social-media). |
+
+## Imagens Médicas
+
+Imagens de raio-X, ressonância magnética, tomografia e ultrassonografia.
+
+| Skill | Comando | Quando usar |
+| :---- | :------ | :---------- |
+| [Especialista em Imagens de Raio-X](../skills/especialista-em-imagens-raio-x/SKILL.md) | `/especialista-em-imagens-raio-x` | Quando o usuário trabalha com aspectos técnicos/análise de imagens de raio-X. Não use para outras modalidades (imagens-tomografia, imagens-ressonancia-magnetica, imagens-ultrassonografia). |
+| [Especialista em Imagens de Ressonância Magnética](../skills/especialista-em-imagens-ressonancia-magnetica/SKILL.md) | `/especialista-em-imagens-ressonancia-magnetica` | Quando o usuário trabalha com aspectos técnicos/análise de MRI. Não use para outras modalidades (imagens-raio-x, imagens-tomografia, imagens-ultrassonografia). |
+| [Especialista em Imagens de Tomografia Computadorizada](../skills/especialista-em-imagens-tomografia/SKILL.md) | `/especialista-em-imagens-tomografia` | Quando o usuário trabalha com aspectos técnicos/análise de CT. Não use para outras modalidades (imagens-raio-x, imagens-ressonancia-magnetica, imagens-ultrassonografia). |
+| [Especialista em Imagens de Ultrassonografia](../skills/especialista-em-imagens-ultrassonografia/SKILL.md) | `/especialista-em-imagens-ultrassonografia` | Quando o usuário trabalha com aspectos técnicos/análise de ultrassonografia. Não use para outras modalidades (imagens-raio-x, imagens-tomografia, imagens-ressonancia-magnetica). |
 

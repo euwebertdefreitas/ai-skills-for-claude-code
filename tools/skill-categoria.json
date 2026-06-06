@@ -114,5 +114,45 @@
   "implantacao-de-software": "suporte-operacoes",
 
   "gestao-de-saude": "saude",
-  "gestao-hospitalar": "saude"
+  "gestao-hospitalar": "saude",
+
+  "documentos": "office-produtividade",
+  "apresentacoes": "office-produtividade",
+  "planilhas": "office-produtividade",
+  "vba": "office-produtividade",
+  "google-drive": "office-produtividade",
+
+  "marketing": "marketing-conteudo-social",
+  "marketing-digital": "marketing-conteudo-social",
+  "email-marketing": "marketing-conteudo-social",
+  "emails-html": "marketing-conteudo-social",
+  "landing-pages": "marketing-conteudo-social",
+  "web-design": "marketing-conteudo-social",
+  "social-media": "marketing-conteudo-social",
+  "linkedin": "marketing-conteudo-social",
+  "instagram": "marketing-conteudo-social",
+
+  "recrutamento": "carreira",
+  "curriculo-ats": "carreira",
+
+  "extensoes-chrome": "desenvolvimento",
+
+  "windows-desktop": "sistemas-windows",
+  "windows-server": "sistemas-windows",
+  "active-directory": "sistemas-windows",
+  "vpn": "sistemas-windows",
+  "windows-terminal": "sistemas-windows",
+  "ngrok": "sistemas-windows",
+
+  "arquivos-de-email": "comunicacao-mensageria",
+  "gmail": "comunicacao-mensageria",
+  "outlook": "comunicacao-mensageria",
+  "thunderbird": "comunicacao-mensageria",
+  "whatsapp": "comunicacao-mensageria",
+  "telegram": "comunicacao-mensageria",
+
+  "imagens-raio-x": "imagens-medicas",
+  "imagens-ressonancia-magnetica": "imagens-medicas",
+  "imagens-tomografia": "imagens-medicas",
+  "imagens-ultrassonografia": "imagens-medicas"
 }
