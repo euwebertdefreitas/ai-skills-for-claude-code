@@ -25,7 +25,7 @@ Cada skill e uma pasta em `skills/especialista-em-<slug>/` com `SKILL.md` (instr
 - **Suporte · RPA e Operações** (4 skills)
 - **Saúde** (2 skills)
 - **Produtividade e Office** (5 skills)
-- **Marketing, Conteúdo e Social** (9 skills)
+- **Marketing · Conteúdo e Social** (9 skills)
 - **Carreira e Recrutamento** (2 skills)
 - **Sistemas Windows e Infraestrutura** (6 skills)
 - **E-mail e Mensageria** (6 skills)
@@ -263,7 +263,7 @@ Documentos, planilhas, apresentações, VBA e Google Drive.
 | [Especialista em Planilhas](../skills/especialista-em-planilhas/SKILL.md) | `/especialista-em-planilhas` | Quando o usuário trabalha com planilhas/CSV (.xls, .xlsx, .csv, .xlsm). Não use para macros VBA (vba) ou análise estatística pesada (ciencia-de-dados). |
 | [Especialista em VBA](../skills/especialista-em-vba/SKILL.md) | `/especialista-em-vba` | Quando o usuário automatiza Office com VBA/macros. Não use para uso normal de planilhas sem macro (planilhas) ou Python (processamento-de-dados). |
 
-## Marketing, Conteúdo e Social
+## Marketing · Conteúdo e Social
 
 Marketing, marketing digital, e-mail marketing, web design, landing pages, e-mails HTML e redes sociais (LinkedIn, Instagram, social media).
 

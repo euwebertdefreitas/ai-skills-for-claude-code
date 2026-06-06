@@ -17,7 +17,7 @@
   { "chave": "suporte-operacoes",    "nome": "Suporte · RPA e Operações",             "cor": "d4c5f9", "descricao": "Helpdesk, Service Desk, RPA e projetos de implantação de software." },
   { "chave": "saude",                "nome": "Saúde",                                "cor": "c5def5", "descricao": "Gestão de saúde e gestão hospitalar." },
   { "chave": "office-produtividade", "nome": "Produtividade e Office",               "cor": "1b7f3b", "descricao": "Documentos, planilhas, apresentações, VBA e Google Drive." },
-  { "chave": "marketing-conteudo-social", "nome": "Marketing, Conteúdo e Social",    "cor": "e36209", "descricao": "Marketing, marketing digital, e-mail marketing, web design, landing pages, e-mails HTML e redes sociais (LinkedIn, Instagram, social media)." },
+  { "chave": "marketing-conteudo-social", "nome": "Marketing · Conteúdo e Social",    "cor": "e36209", "descricao": "Marketing, marketing digital, e-mail marketing, web design, landing pages, e-mails HTML e redes sociais (LinkedIn, Instagram, social media)." },
   { "chave": "carreira",             "nome": "Carreira e Recrutamento",              "cor": "b08800", "descricao": "Recrutamento profissional e currículo com foco em ATS." },
   { "chave": "sistemas-windows",     "nome": "Sistemas Windows e Infraestrutura",    "cor": "0969da", "descricao": "Windows Desktop/Server, Active Directory, VPN, Windows Terminal e ngrok." },
   { "chave": "comunicacao-mensageria", "nome": "E-mail e Mensageria",                "cor": "8250df", "descricao": "Arquivos de e-mail, Gmail, Outlook, Thunderbird, WhatsApp e Telegram." },

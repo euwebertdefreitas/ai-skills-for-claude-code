@@ -129,7 +129,7 @@ São **133 skills** organizadas em **23 categorias**. Veja a lista completa, com
 | Suporte · RPA e Operações | 4 |
 | Saúde | 2 |
 | Produtividade e Office | 5 |
-| Marketing, Conteúdo e Social | 9 |
+| Marketing · Conteúdo e Social | 9 |
 | Carreira e Recrutamento | 2 |
 | Sistemas Windows e Infraestrutura | 6 |
 | E-mail e Mensageria | 6 |
