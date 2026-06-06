@@ -1,6 +1,6 @@
 # 🧠 AI Skills for Claude Code
 
-> Uma biblioteca com **100 skills de especialista** (“Especialista em X”) para o [Claude Code](https://code.claude.com/docs), cobrindo desenvolvimento de software, dados e IA, arquitetura, DevOps, gestão, metodologias ágeis, comunicação e muito mais.
+> Uma biblioteca com as minhas **skills de especialista e plugins** para o [Claude Code](https://code.claude.com/docs), cobrindo desenvolvimento de software, dados e IA, arquitetura, DevOps, gestão, metodologias ágeis, comunicação e muito mais.
 
 Cada skill transforma o Claude Code em um **especialista sênior** no assunto: ao trabalhar em um projeto, o Claude carrega automaticamente o especialista relevante (ou você o invoca com `/especialista-em-<slug>`), trazendo princípios, processo de trabalho, boas práticas e antipadrões daquele domínio para o contexto.
 
