@@ -17,6 +17,7 @@ $tipo = @(
 )
 
 function Ensure-Label($name,$color,$desc) {
+  if ($desc.Length -gt 100) { $desc = $desc.Substring(0,99) }  # limite de descricao de label no GitHub
   # tenta criar; se ja existe, atualiza cor/descricao
   $out = gh api -X POST "repos/$slug/labels" -f "name=$name" -f "color=$color" -f "description=$desc" 2>&1
   if ($LASTEXITCODE -eq 0) { Write-Host "  criada: $name"; return }
